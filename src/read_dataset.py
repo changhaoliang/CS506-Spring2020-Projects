@@ -1,13 +1,10 @@
 import json
 import re
 import pprint
-dict = {}
 
 Head_Word = "Criminal"
 Words = [ "confidential informant", "informant"]
-A=set([])
-B=set([])
-C=[]
+res=set([])
 
 filteredCases = []
 with open('cases.json', 'r') as f:
@@ -20,14 +17,14 @@ for i, case in enumerate(cases):
     for key in case:
         if key == "headnote" :
             for headnote in case[key]:
-                if "Criminal" in headnote:
+                if Head_Word in headnote:
                     filteredCases.append(cases[i])
 
 for i, case in enumerate(cases_appeals):
     for key in case:
         if key == "headnote" :
             for headnote in case[key]:
-                if "Criminal" in headnote:
+                if Head_Word in headnote:
                     filteredCases.append(cases_appeals[i])
 
 for i, case in enumerate(filteredCases):
@@ -38,12 +35,11 @@ for i, case in enumerate(filteredCases):
                 pattern = re.compile(r'informant',re.IGNORECASE)
                 result = pattern.findall(word)
                 if result!=[]:
-                    A.add(i)
+                    res.add(i)
                 else:
                     pattern = re.compile(r'CI')
                     result = pattern.findall(word)
                     if result!=[]:
-                        A.add(i)
+                        res.add(i)
 
-
-print(len(A))
+print(len(res))
