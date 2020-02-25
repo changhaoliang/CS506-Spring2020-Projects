@@ -1,41 +1,37 @@
 import json
-
-dict = {}
+import re
+import string
 
 Head_Word = "Criminal"
-Words = ["CI", "confidental informat", "informat"]
 
-with open('cases_appeals.json', 'r') as f:
+key_words = [ "confidential informant", "informant"]
+
+res = set()
+
+with open('cases.json', 'r') as f:
     data = json.load(f)
 
-print(data[0])
+for i, case in enumerate(data):
+    for key in case:
+        value = case[key]
 
+        for text in value:
+            for c in string.punctuation:  
+                text = text.replace(c, ' ')
+    
+            words = text.split(' ')
+            
+            for w in words:
+                pattern = re.compile(r'informant',re.IGNORECASE)
+                
+                result = pattern.findall(w)
 
-def loop(data):
-    for key in data.keys():
-        for ele in data[key]:
-            for word in Words:
-                # if(ele.find(Head_Word) and (not ele.find("civil"))):
-                if (Head_Word.lower() in ele.lower()):
-                    if (word.lower() in ele.lower()):
-                        return True
-    return False
+                if result!=[]:
+                    res.add(i)
+                else:
+                    pattern = re.compile(r'CI')
+                    result = pattern.findall(w)
+                    if result!=[]:
+                        res.add(i)
 
-A = []
-for i in range(len(data)):
-    A.append(loop(data[i]))
-n = 0
-List = []
-for i in range(len(A)):
-    List.append(data[i])
-    if(A[i] == True):
-        n += 1
-
-
-print("Total number of cases: ")
-#print(len(A))
-print("Positive: ")
-# print(n)
-# print(List)
-with open("cases_appeals_result.json","w") as f:
-     json.dump(List, f)
+print(len(res))
