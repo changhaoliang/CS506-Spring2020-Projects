@@ -67,11 +67,11 @@ def extract_text(left_index, lines, pdfReader):
 
     pages_num = pdfReader.numPages
 
-    # for i in range(2, pages_num):
-    #     lines = pdfReader.getPage(i).extractText().split('\n')
-    #     for line in lines:
-    #         if (line != ' '):
-    #             text += line
+    for i in range(2, pages_num):
+        lines = pdfReader.getPage(i).extractText().split('\n')
+        for line in lines:
+            if (line != ' '):
+                text += line
     return text
 
 # website: https://www.courts.state.nh.us/supreme/opinions/2018/index.htm
@@ -142,11 +142,11 @@ def read_files_allpdf(path):
         dataset_csv.loc[i] = [title,  headnote, ""]
         pdfFile.close()
 
-    dataset_csv.to_csv("cases.csv")
+    dataset_csv.to_csv("cases_nh.csv")
 
     return dataset_csv
 
-res = read_files_allpdf("./pdf_nh_cases")
+res = read_files_allpdf("./pdf_nh_cases_opinion")
 
 
 # selenium test
