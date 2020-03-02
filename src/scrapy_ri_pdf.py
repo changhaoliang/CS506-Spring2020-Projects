@@ -1,5 +1,5 @@
 from PyPDF2 import PdfFileReader, PdfFileWriter
-from selenium import webdriver
+# from selenium import webdriver
 import os
 import string
 import pandas as pd
