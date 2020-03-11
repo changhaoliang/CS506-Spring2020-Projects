@@ -5,9 +5,9 @@ import csv
 import json
 import pandas as pd
 import pprint
-import pdftotext # pip3 install pdftotext
+import pdftotext # sudo apt-get install build-essential libpoppler-cpp-dev pkg-config python-dev && pip3 install pdftotext
 
-path = '../pdf_nh_cases/'
+path = './pdf_nh_cases'
 
 
 # website: https://www.courts.state.nh.us/supreme/opinions/2018/index.htm
