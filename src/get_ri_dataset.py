@@ -10,6 +10,12 @@ import pandas as pd
 www1 = "https://www.courts.ri.gov/Courts/SupremeCourt/Pages/Opinions%20and%20Orders%20Issued%20in%20Supreme%20Court%20Cases.aspx"
 
 def download_pdf(browser, year_period):
+    '''
+        download pdf from ri website into pdf_ri_cases file
+        :param: browser: chrome
+        :param: year_period: eg. 2018 - 2019, str type
+    '''
+
     browser.find_element_by_link_text(year_period).click()
     count = 0
     filename_list = []
@@ -46,12 +52,19 @@ def download_pdf(browser, year_period):
         else:
             break;
 
-    file = open('filename_list_ri.txt','w');
+    # save files order into a txt 
+    file = open('./data/filename_list_ri.txt','w');
     for name in filename_list:
         file.write(str(name) + '\n');
     file.close();
 
 def tag_cases(browser, year_period):
+    '''
+        classify cases with type(criminal / not criminal) and results(affirm / not affirm)
+        :param: browser: chrome
+        :param: year_period: eg. 2018 - 2019, str type
+    '''
+
     browser.find_element_by_link_text(year_period).click()
 
     texts = []
@@ -104,7 +117,7 @@ def tag_cases(browser, year_period):
 
 def get_pdfs(path):
     pdfs = []
-    f = open('filename_list_ri.txt')
+    f = open('./data/filename_list_ri.txt')
     lines = f.readlines()
     # pdf_names = os.listdir(path)
 
@@ -142,7 +155,6 @@ def get_data(cases):
     cases_title = []
     cases_text = []
     for pdf_case in cases:
-
         paragraph_case_number = -1
         paragraph_submitted_argued = -1
         paragraph_opinion_issued = -1
@@ -195,8 +207,12 @@ if __name__ == "__main__":
     browser = webdriver.Chrome(chrome_options=chrome_options)
     browser.get(www1)
 
+
     criminal_flag, result, texts = tag_cases(browser, "2019 - 2020")
 
+    '''
+        download pdf from ri website
+    '''
     #download_pdf(browser, "2019 - 2020")
 
     path = './pdf_ri_cases'
@@ -205,9 +221,14 @@ if __name__ == "__main__":
     cases = split(cases)
     cases_title, cases_text = get_data(cases)
 
-    res = pd.DataFrame(columns = ['title', 'type', 'result'])
+
+    '''
+        save result into csv file
+    '''
+
+    res = pd.DataFrame(columns = ['title', 'type', 'result', 'text'])
 
     for i in range(len(result)):
-        res.loc[i] = [cases_title[i], criminal_flag[i], result[i]]
+        res.loc[i] = [cases_title[i], criminal_flag[i], result[i], cases_text[i]]
 
-    res.to_csv("res.csv")
+    res.to_csv("./data/ri.csv")
