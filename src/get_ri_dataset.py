@@ -23,19 +23,22 @@ def download_pdf(browser, year_period):
         cases_num_path = "//*[@id='bottomPagingCellWPQ2']/table/tbody/tr"
         pdf_link_path = "//*[@id='onetidDoclibViewTbl0']/tbody"
         click_path = cases_num_path + "/td"
-        tr_list = browser.find_elements_by_xpath(click_path)
+        # tr_list = browser.find_elements_by_xpath(click_path)
 
-        if (count == 0):
-            cases_num_str = tr_list[0].get_attribute('textContent')
-        else:
-            cases_num_str = tr_list[1].get_attribute('textContent')
+        # if (count == 0):
+        #     cases_num_str = tr_list[0].get_attribute('textContent')
+        # else:
+        #     cases_num_str = tr_list[1].get_attribute('textContent')
 
-        cases_num_start = int(cases_num_str.split(' ')[0])
-        cases_num_end =int(cases_num_str.split(' ')[2])
+        # cases_num_start = int(cases_num_str.split(' ')[0])
+        # cases_num_end =int(cases_num_str.split(' ')[2])
+
+        cases_num_start = 1
+        cases_num_end =131
 
         for i in range(cases_num_start, cases_num_end+1):
+            # 2018 - 2019 3
             pdf_path = pdf_link_path + "/tr[" + str(3*(i-cases_num_start) + 2) + "]/td[2]/a"
-
 
             filename = browser.find_element_by_xpath(pdf_path).get_attribute('textContent')
 
@@ -43,14 +46,15 @@ def download_pdf(browser, year_period):
             filename_list.append(filename+".pdf")
             sleep(3)
 
-        if count == 0 and len(tr_list) == 2:
-            count = count + 1
-            tr_list[1].click()
-        elif count > 0 and len(tr_list) == 3:
-            count = count + 1
-            tr_list[2].click()
-        else:
-            break;
+        break
+        # if count == 0 and len(tr_list) == 2:
+        #     count = count + 1
+        #     tr_list[1].click()
+        # elif count > 0 and len(tr_list) == 3:
+        #     count = count + 1
+        #     tr_list[2].click()
+        # else:
+        #     break;
 
     # save files order into a txt 
     file = open('./data/filename_list_ri.txt','w');
@@ -80,13 +84,17 @@ def tag_cases(browser, year_period):
         tr_list = browser.find_elements_by_xpath(click_path)
 
         cases_path = "//*[@id='onetidDoclibViewTbl0']/tbody"
-        if (count == 0):
-            cases_num_str = tr_list[0].get_attribute('textContent')
-        else:
-            cases_num_str = tr_list[1].get_attribute('textContent')
+        # if (count == 0):
+        #     cases_num_str = tr_list[0].get_attribute('textContent')
+        # else:
+        #     cases_num_str = tr_list[1].get_attribute('textContent')
 
-        cases_num_start = int(cases_num_str.split(' ')[0])
-        cases_num_end =int(cases_num_str.split(' ')[2])
+        # cases_num_start = int(cases_num_str.split(' ')[0])
+        # cases_num_end =int(cases_num_str.split(' ')[2])
+
+        cases_num_start = 1
+        cases_num_end =131
+
 
         for i in range(cases_num_start, cases_num_end+1):
             path = cases_path + "/tr[" + str((i - cases_num_start + 1)*3)  + "]/td/div"
@@ -104,14 +112,15 @@ def tag_cases(browser, year_period):
             else:
                 result.append('not affirm')
 
-        if count == 0 and len(tr_list) == 2:
-            count = count + 1
-            tr_list[1].click()
-        elif count > 0 and len(tr_list) == 3:
-            count = count + 1
-            tr_list[2].click()
-        else:
-            break;
+        break
+        # if count == 0 and len(tr_list) == 2:
+        #     count = count + 1
+        #     tr_list[1].click()
+        # elif count > 0 and len(tr_list) == 3:
+        #     count = count + 1
+        #     tr_list[2].click()
+        # else:
+        #     break;
 
     return criminal_flag, result, texts
 
@@ -119,7 +128,6 @@ def get_pdfs(path):
     pdfs = []
     f = open('./data/filename_list_ri.txt')
     lines = f.readlines()
-    # pdf_names = os.listdir(path)
 
     for name in lines:
         pdf_name = name.replace("\n", "")
@@ -208,13 +216,15 @@ if __name__ == "__main__":
     browser.get(www1)
 
 
-    criminal_flag, result, texts = tag_cases(browser, "2019 - 2020")
-
     '''
         download pdf from ri website
     '''
-    #download_pdf(browser, "2019 - 2020")
+    # download_pdf(browser, "2012 - 2013")
+    # exit(0)
 
+    criminal_flag, result, texts = tag_cases(browser, "2012 - 2013")
+
+    
     path = './pdf_ri_cases'
     pdfs = get_pdfs(path)
     cases = get_cases(pdfs)
@@ -231,4 +241,4 @@ if __name__ == "__main__":
     for i in range(len(result)):
         res.loc[i] = [cases_title[i], criminal_flag[i], result[i], cases_text[i]]
 
-    res.to_csv("./data/ri.csv")
+    res.to_csv("./data/ri12-13.csv")
