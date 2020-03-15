@@ -1,11 +1,14 @@
+import csv
+import glob
+import os
+import re
+from time import sleep
+
+import pandas as pd
+
+import pdftotext
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
-from time import sleep
-import pdftotext
-import os
-import csv
-import re 
-import pandas as pd
 
 www1 = "https://www.courts.ri.gov/Courts/SupremeCourt/Pages/Opinions%20and%20Orders%20Issued%20in%20Supreme%20Court%20Cases.aspx"
 
@@ -19,25 +22,48 @@ def download_pdf(browser, year_period):
     browser.find_element_by_link_text(year_period).click()
     count = 0
     filename_list = []
+
     while(True):
-        cases_num_path = "//*[@id='bottomPagingCellWPQ2']/table/tbody/tr"
+        cases_num_path = "//*[@id='bottomPagingCellWPQ3']/table/tbody/tr"
         pdf_link_path = "//*[@id='onetidDoclibViewTbl0']/tbody"
         click_path = cases_num_path + "/td"
-        # tr_list = browser.find_elements_by_xpath(click_path)
+        tr_list = browser.find_elements_by_xpath(click_path)
 
-        # if (count == 0):
-        #     cases_num_str = tr_list[0].get_attribute('textContent')
-        # else:
-        #     cases_num_str = tr_list[1].get_attribute('textContent')
 
-        # cases_num_start = int(cases_num_str.split(' ')[0])
-        # cases_num_end =int(cases_num_str.split(' ')[2])
+        if (count == 0):
+            cases_num_str = tr_list[0].get_attribute('textContent')
+        else:
+            cases_num_str = tr_list[1].get_attribute('textContent')
 
-        cases_num_start = 1
-        cases_num_end =131
+        cases_num_start = int(cases_num_str.split(' ')[0])
+        cases_num_end =int(cases_num_str.split(' ')[2])
 
+
+        '''
+            For year <=2010, can use this method
+        ''' 
+        # element = browser.find_elements_by_xpath("//a[contains(@href, '/Courts/SupremeCourt/OpinionsOrders')]")
+
+        # websites = []
+        # for pdf in element:
+        #     website = pdf.get_attribute('href')
+        #     strs = website.split('/')
+        #     filename = strs[-1]
+        #     if (filename not in filename_list):
+        #         filename_list.append(filename)
+
+        #     if (website not in websites):
+        #         websites.append(website)
+
+        # for website in websites:
+        #     browser.get(website)
+        #     sleep(3)
+        
+
+        '''
+            For year > 2010, use this method
+        '''
         for i in range(cases_num_start, cases_num_end+1):
-            # 2018 - 2019 3
             pdf_path = pdf_link_path + "/tr[" + str(3*(i-cases_num_start) + 2) + "]/td[2]/a"
 
             filename = browser.find_element_by_xpath(pdf_path).get_attribute('textContent')
@@ -46,21 +72,24 @@ def download_pdf(browser, year_period):
             filename_list.append(filename+".pdf")
             sleep(3)
 
-        break
-        # if count == 0 and len(tr_list) == 2:
-        #     count = count + 1
-        #     tr_list[1].click()
-        # elif count > 0 and len(tr_list) == 3:
-        #     count = count + 1
-        #     tr_list[2].click()
-        # else:
-        #     break;
+        '''
+            jump to next page if exists
+        '''
+        if count == 0 and len(tr_list) == 2:
+            count = count + 1
+            tr_list[1].click()
+        elif count > 0 and len(tr_list) == 3:
+            count = count + 1
+            tr_list[2].click()
+        else:
+            break;
 
     # save files order into a txt 
     file = open('./data/filename_list_ri.txt','w');
     for name in filename_list:
         file.write(str(name) + '\n');
     file.close();
+
 
 def tag_cases(browser, year_period):
     '''
@@ -77,23 +106,22 @@ def tag_cases(browser, year_period):
 
     count = 0
     while(True):
-        cases_num_path = "//*[@id='bottomPagingCellWPQ2']/table/tbody/tr"
+        
+        cases_num_path = "//*[@id='bottomPagingCellWPQ3']/table/tbody/tr"
         pdf_link_path = "//*[@id='onetidDoclibViewTbl0']/tbody"
         click_path = cases_num_path + "/td"
 
         tr_list = browser.find_elements_by_xpath(click_path)
 
         cases_path = "//*[@id='onetidDoclibViewTbl0']/tbody"
-        # if (count == 0):
-        #     cases_num_str = tr_list[0].get_attribute('textContent')
-        # else:
-        #     cases_num_str = tr_list[1].get_attribute('textContent')
 
-        # cases_num_start = int(cases_num_str.split(' ')[0])
-        # cases_num_end =int(cases_num_str.split(' ')[2])
+        if (count == 0):
+            cases_num_str = tr_list[0].get_attribute('textContent')
+        else:
+            cases_num_str = tr_list[1].get_attribute('textContent')
 
-        cases_num_start = 1
-        cases_num_end =131
+        cases_num_start = int(cases_num_str.split(' ')[0])
+        cases_num_end =int(cases_num_str.split(' ')[2])
 
 
         for i in range(cases_num_start, cases_num_end+1):
@@ -112,15 +140,14 @@ def tag_cases(browser, year_period):
             else:
                 result.append('not affirm')
 
-        break
-        # if count == 0 and len(tr_list) == 2:
-        #     count = count + 1
-        #     tr_list[1].click()
-        # elif count > 0 and len(tr_list) == 3:
-        #     count = count + 1
-        #     tr_list[2].click()
-        # else:
-        #     break;
+        if count == 0 and len(tr_list) == 2:
+            count = count + 1
+            tr_list[1].click()
+        elif count > 0 and len(tr_list) == 3:
+            count = count + 1
+            tr_list[2].click()
+        else:
+            break;
 
     return criminal_flag, result, texts
 
@@ -162,10 +189,15 @@ def split(cases):
 def get_data(cases):
     cases_title = []
     cases_text = []
+    criminal_flag = []
+    result = []
+
     for pdf_case in cases:
         paragraph_case_number = -1
         paragraph_submitted_argued = -1
         paragraph_opinion_issued = -1
+        crimianl_type = -1
+        paragraph_result = -1
         pdf_file_name = pdf_case[0]
         case = pdf_case[1]
 
@@ -186,6 +218,16 @@ def get_data(cases):
             if paragraph.find('OPINION') != -1:
                 paragraph_opinion_issued = i
                 break
+
+        for i, paragraph in enumerate(case):
+            if paragraph.lower().find('affirm') != -1:
+                paragraph_result = i
+                break
+
+        for i, paragraph in enumerate(case):
+            if paragraph.lower().find('criminal') != -1:
+                crimianl_type = i
+                break
         if paragraph_opinion_issued == -1: print("No Opinion found")
 
 
@@ -194,9 +236,38 @@ def get_data(cases):
         cases_title.append(title)
         cases_text.append(case[paragraph_opinion_issued+1:])
 
+
+        '''
+            for 2010-, html is different from 2010+
+            hard to scrpy text from html because it has no tag
+        '''
+        # if (crimianl_type != -1) :
+        #     criminal_flag.append("criminal")
+        # else:
+        #     criminal_flag.append("non-criminal")
+
+        # if (paragraph_result != -1) :
+        #     result.append("affirm")
+        # else:
+        #     result.append("not affirm")
+
     return cases_title, cases_text
 
-if __name__ == "__main__":
+def combine_dataset(workpath):
+    '''
+        combine all csv under the workpath into one csv file
+    '''
+    csv_list = glob.glob(workpath + '/*.csv') #查看同文件夹下的csv文件数
+    print(u'共发现%s个CSV文件'% len(csv_list))
+    print(u'正在处理............')
+    for i in csv_list: #循环读取同文件夹下的csv文件
+        fr = open(i,'rb').read()
+        with open('final_ri.csv','ab') as f: #将结果保存为result.csv
+            f.write(fr)
+    print(u'合并完毕！')
+
+
+def scrapy(year_period):
     '''
         changhe directory to adapt to your os before run the code
     '''
@@ -219,10 +290,9 @@ if __name__ == "__main__":
     '''
         download pdf from ri website
     '''
-    # download_pdf(browser, "2012 - 2013")
-    # exit(0)
+    download_pdf(browser, year_period)
 
-    criminal_flag, result, texts = tag_cases(browser, "2012 - 2013")
+    criminal_flag, result, texts = tag_cases(browser, year_period)
 
     
     path = './pdf_ri_cases'
@@ -241,4 +311,7 @@ if __name__ == "__main__":
     for i in range(len(result)):
         res.loc[i] = [cases_title[i], criminal_flag[i], result[i], cases_text[i]]
 
-    res.to_csv("./data/ri12-13.csv")
+    res.to_csv("./data/ri" + year_period + ".csv")
+
+if __name__ == "__main__":
+    combine_dataset("./data/ri_csv")
