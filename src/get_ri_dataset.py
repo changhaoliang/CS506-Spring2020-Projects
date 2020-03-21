@@ -29,7 +29,6 @@ def download_pdf(browser, year_period):
         click_path = cases_num_path + "/td"
         tr_list = browser.find_elements_by_xpath(click_path)
 
-
         if (count == 0):
             cases_num_str = tr_list[0].get_attribute('textContent')
         else:
@@ -42,6 +41,7 @@ def download_pdf(browser, year_period):
         '''
             For year <=2010, can use this method
         ''' 
+
         # element = browser.find_elements_by_xpath("//a[contains(@href, '/Courts/SupremeCourt/OpinionsOrders')]")
 
         # websites = []
@@ -153,11 +153,14 @@ def tag_cases(browser, year_period):
 
 def get_pdfs(path):
     pdfs = []
-    f = open('./data/filename_list_ri.txt')
-    lines = f.readlines()
+    # f = open('./data/filename_list_ri.txt')
+    # lines = f.readlines()
 
-    for name in lines:
-        pdf_name = name.replace("\n", "")
+    # for name in lines:
+    #     pdf_name = name.replace("\n", "")
+    pdf_names = os.listdir(path)
+
+    for pdf_name in pdf_names:
 
         if pdf_name.endswith('.pdf'):
             with open(path + "/" + pdf_name,  "rb") as f:
@@ -221,15 +224,18 @@ def get_data(cases):
 
         for i, paragraph in enumerate(case):
             if paragraph.lower().find('affirm') != -1:
-                paragraph_result = i
+                paragraph_result = 1
                 break
-
-        for i, paragraph in enumerate(case):
-            if paragraph.lower().find('criminal') != -1:
-                crimianl_type = i
+            if paragraph.lower().find('vacate') != -1:
+                paragraph_result = 0
                 break
-        if paragraph_opinion_issued == -1: print("No Opinion found")
-
+        if paragraph_result == 1:
+            result.append('reversal')
+        elif paragraph_result == 0:
+            result.append('non-reversal')
+        else:
+            result.append('undecided')
+            
 
         title = ' '.join(case[paragraph_case_number+1:paragraph_submitted_argued])
 
@@ -241,17 +247,8 @@ def get_data(cases):
             for 2010-, html is different from 2010+
             hard to scrpy text from html because it has no tag
         '''
-        # if (crimianl_type != -1) :
-        #     criminal_flag.append("criminal")
-        # else:
-        #     criminal_flag.append("non-criminal")
 
-        # if (paragraph_result != -1) :
-        #     result.append("affirm")
-        # else:
-        #     result.append("not affirm")
-
-    return cases_title, cases_text
+    return cases_title, cases_text, result
 
 def combine_dataset(workpath):
     '''
@@ -314,4 +311,20 @@ def scrapy(year_period):
     res.to_csv("./data/ri" + year_period + ".csv")
 
 if __name__ == "__main__":
-    combine_dataset("./data/ri_csv")
+    path = './pdf_ri_cases'
+    pdfs = get_pdfs(path)
+    cases = get_cases(pdfs)
+    cases = split(cases)
+    cases_title, cases_text, result = get_data(cases)
+
+    print(len(cases_title))
+    print(len(cases_text))
+    print(len(result))
+
+    res = pd.DataFrame(columns = ['title', 'result', 'text'])
+
+    for i in range(len(result)):
+        res.loc[i] = [cases_title[i], result[i], cases_text[i]]
+
+    print(result)
+    res.to_csv("./data/ri_2.0.csv")
