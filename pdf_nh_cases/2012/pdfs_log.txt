@@ -1,0 +1,136 @@
+1	2012122souksamrane.pdf	2010-879, State of New Hampshire v. Thavone Souksamrane
+2	2012123furgal.pdf	2011-322, State of New Hampshire v. Cory Furgal
+3	2012124gibbs.pdf	2011-341, State of New Hampshire v. Peter E. Gibbs, Jr.
+4	2012125thompson.pdf	2011-373, State of New Hampshire v. Daniel C. Thompson
+5	2012126bell.pdf	2011-461, State of New Hampshire v. Elliott M. Bell
+6	2012127ellis.pdf	2011-613, David Ellis v. Candia Trailers and Snow Equipment, Inc. & a.
+7	2012128lathrop.pdf	2011-732, State of New Hampshire v. Alan Lathrop
+8	2012129carletonllc.pdf	2012-061, Carleton, LLC v. Richard Balagur & a; Carleton, LLC v. Richard Balagur; Richard Balagur v. Bukk Carleton
+9	2012130nhipa.pdf	2012-356, New Hampshire Independent Pharmacy Association v. New Hampshire Insurance Department
+10	2012131matthewl.pdf	2012-384, In re Guardianship of Matthew L.
+11	2012119perri.pdf	2010-816, State of New Hampshire v. Timothy Perri
+12	01-10-2013_slip_opinion_modified.pdf	see court order
+13	04-02-2013-Slip-opinion-modified-order.pdf	see court order
+14	2012120ouahman.pdf	2011-756, State of New Hampshire v. Mohamed Ouahman
+15	2012121white.pdf	2011-851, State of New Hampshire v. Thomas White
+16	2012116biondolillo.pdf	2011-830, State of New Hampshire v. Samuel Biondolillo
+17	2012117brettonwoods.pdf	2011-892, Appeal of Bretton Woods Telephone Company, Inc. & a.
+18	2012118mason.pdf	2012-096, In the Matter of Robin Mason and Martin Mason
+19	2012115sheehan.pdf	2012-081, Kevin P. Sheehan v. New Hampshire Department of Resources and Economic Development
+20	2012112saunders.pdf	2011-230, State of New Hampshire v. Dianna Saunders
+21	20110776_order.pdf	see 12/7/2012 order
+22	2012114heinrich.pdf	2012-098, In the Matter of Kenneth Heinrich and Dorothy Heinrich
+23	2012104brooks.pdf	2008-875, State of New Hampshire v. John Brooks
+24	11282012_slip_opinion_modified.pdf	see court order
+25	2012105baker.pdf	2011-083, State of New Hampshire v. Robert L. Baker
+26	2012106woolsey.pdf	2011-483, In the Matter of Nancy E. Woolsey and Grant E. Woolsey
+27	2012107nhdoc.pdf	2011-639, Appeal of New Hampshire Department of Corrections
+28	2012108bordalocarter.pdf	2011-737, In the Matter of Matthew Bordalo and Meagan Carter
+29	2012109snhmc.pdf	2011-754, Petition of Southern New Hampshire Medical Center & a.
+30	2012110namechange.pdf	2011-833, In re Name Change of Alexander Goudreau
+31	2012111hildreth.pdf	2011-895, Appeal of Karen Hildreth
+32	2012100townsend.pdf	2010-559, Town of Barrington v. Richard Townsend
+33	2012101charest.pdf	2011-307, State of New Hampshire v. Jonathan Charest
+34	2012102moultonborough.pdf	2011-538, Appeal of Town of Moultonborough
+35	2012103dunn.pdf	2011-785, State of New Hampshire v. Calvin Dunn, III
+36	2012098schulz.pdf	2011-606, State of New Hampshire v. Logan Schulz
+37	2012095greatamericaninsurance.pdf	2011-228, Great American Insurance Company v. Robert Christy, Esquire & a.
+38	2012096ball.pdf	2011-626, State of New Hampshire v. Jonathan Ball
+39	2012097bond.pdf	2011-819, Kenneth Bond & a. v. Paul Martineau & a.
+40	2012093omeara.pdf	LD-2011-002, O'Meara's Case
+41	2012094clauson.pdf	LD-2011-010, Clauson's Case
+42	2012092hollenbeck.pdf	2011-165, State of New Hampshire v. Burton G. Hollenbeck, Jr.
+43	2012089moussa.pdf	2009-0451, State of New Hampshire v. Saad Moussa
+44	2012090cityconcord.pdf	2011-0462, City of Concord & a . v. State of New Hampshire & a
+45	09282012_slip_opinion_modified.pdf	see court order
+46	2012091larocque.pdf	2011-0734, In the Matter of Mary Beth LaRocque and George W. LaRocque
+47	2012085aspen.pdf	2011-498, Appeal of Aspen Contracting NE, LLC
+48	2012086philipmorris.pdf	2011-574, Karen L. Lawrence v. Philip Morris USA, Inc.
+49	2012087moore.pdf	2011-644, Appeal of Casey B. Moore
+50	2012088nicholson.pdf	2011-856, In the Matter of Kimberly J. Nicholson and John P. Nicholson
+51	2012080alwardt.pdf	2011-076, State of New Hampshire v. Bryan Alwardt
+52	2012081atkinson.pdf	2011-085, Town of Atkinson v. Malborn Realty Trust & a.
+53	2012082davies.pdf	2011-291, State of New Hampshire v. Josiah L. Davies
+54	2012083bakunczyk.pdf	2011-546, State of New Hampshire v. Joseph Bakunczyk
+55	2012084barkingdog.pdf	2011-693, The Barking Dog, Ltd. v. Citizens Insurance Company of America
+56	2012079_DB.pdf	2011-245, In re D.B.
+57	2012078poulin.pdf	2011-682, In the Matter of Christian A. Poulin and Rose Marie (Poulin) Wall
+58	2012076marchand.pdf	2011-297, State of New Hampshire v. Gary E. Marchand
+59	08-02-2012-Slip-opinion-modified-order.pdf	see court order
+60	2012077sugarhill.pdf	2011-843, Henderson Holdings at Sugar Hill, LLC v. Town of Sugar Hill
+61	2012075firefighterswolfeboro.pdf	2011-438, Professional Fire Fighters of Wolfeboro, IAFF Local 3708 & a. v. Town of Wolfeboro
+62	2012069town.pdf	2010-774, State of New Hampshire v. William K. Town
+63	2012070franchi.pdf	2011-023, New Hampshire Department of Transportation v. Pasquale Franchi
+64	2012071walbridge.pdf	2011-107, Tracy M. Walbridge v. The Estate of Raymond A. Beaudoin, Jr. & a.
+65	2012073regan.pdf	2011-701, In the Matter of Susan J. Regan and Steven S. Regan
+66	2012074nationalgrid.pdf	2011-723, EnergyNorth Natural Gas, Inc. d/b/a National Grid NH v. City of Concord
+67	2012062phaneuf.pdf	2011-151, Phaneuf Funeral Home v. Little Giant Pump Company & a.
+68	2012063bosonetto.pdf	2011-183, Nicolas Bosonetto v. Town of Richmond
+69	2012064cottrell.pdf	2011-210, In the Matter of Carolyn P. Cottrell, DDS and Mostafa El-Sherif, DMD
+70	2012065kilnwood.pdf	2011-323, Kilnwood on Kanasatka Condominium Unit Association, Inc. v. Perry Smith & a.
+71	2012066propertyportfolio.pdf	2011-496, Property Portfolio Group, LLC v. Town of Derry; Dom Vincent, LLC v. Town of Derry
+72	2012067dilboy.pdf	2011-565, State of New Hampshire v. Anthony Dilboy
+73	2012068CM.pdf	2011-647, In re C.M. & a.
+74	2012061redistricting.pdf	2012-338, City of Manchester & a. v. Secretary of State
+75	2012058lebanonhangar.pdf	2011-318, Lebanon Hangar Associates, Ltd. v. City of Lebanon
+76	07132012-Slip-opinion-modified.pdf	see court order
+77	2012059nodvin.pdf	2011-454, Edeltraud Elter-Nodvin v. Leah Nodvin & a.
+78	2012060jeffery.pdf	2011-516, Susan Jeffery v. City of Nashua
+79	2012054forest.pdf	2010-679, State of New Hampshire v. Steven Forest
+80	2012055libertyassembly.pdf	2011-368, Appeal of Liberty Assembly of God & a.
+81	2012056seabrook.pdf	2011-381, Appeal of Town of Seabrook
+82	2012057endicott.pdf	2011-502, 38 Endicott Street North, LLC v. State Fire Marshall, New Hampshire Division of Fire Safety
+83	2012046mbahaba.pdf	2010-710, Regina Mbahaba, Individually and as Mother and Next Best Friend of Benita Nahimana v. Thomas Morgan d/b/a Property Management Services a/k/a Property Services Company, LLC
+84	2012047raybeck.pdf	2010-876, In the Matter of Judith Raybeck and Bruce Raybeck
+85	2012048dube.pdf	2011-075, In the Matter of Eric J. Dube and Jeannie Dube
+86	2012049mcgurk.pdf	2011-164, State of New Hampshire v. Sean McGurk
+87	2012050digaetano.pdf	2011-288, Lynne DiGaetano & a . v. John M. DiGaetano
+88	2012051brownell.pdf	2011-304, In the Matter of Ronald Brownell and Irene Brownell
+89	2012052rivera.pdf	2011-406, Rebecca Rivera v. Liberty Mutual Fire Insurance Company
+90	2012053firefighters.pdf	2011-550, Professional Fire Fighters of New Hampshire v. The New Hampshire Local Government Center
+91	2012045willey.pdf	2010-578, State of New Hampshire v. Thomas Willey
+92	2012042fischer.pdf	2010-737, David Fischer v. Superintendent, Strafford County House of Corrections
+93	2012043brown.pdf	2011-385, Marc Brown & a . v. Concord Group Insurance Company
+94	06082012-Mandate-vacated-slip-opinion-modified-order.pdf	see court order
+95	2012044suprenant.pdf	2011-661, Robert Suprenant v. Deborah Mulcrone
+96	2012036davidson.pdf	2010-402, State of New Hampshire v. Roderick Davidson
+97	2012037guild.pdf	2010-692, State of New Hampshire v. Joshua Guild
+98	2012038danscity.pdf	2011-144, Robert Pelkey v. Dan's City Used Cars, Inc. d/b/a Dan's City Auto Body
+99	2012039dimaggio.pdf	2011-156, State of New Hampshire v. Derrick C. DiMaggio
+100	2012040raymondb.pdf	2011-218, In re Guardianship of Raymond B.
+101	2012041ortiz.pdf	2011-446, State of New Hampshire v. Deicy Urena Ortiz
+102	2012035cloutier.pdf	2010-714, Raymond A. Cloutier & a. v. State of New Hampshire & a.
+103	2012028hill.pdf	2010-026, State of New Hampshire v. Glendon Hill
+104	2012029alexander.pdf	2011-016 & 2011-018, Appeal of Timothy Alexander
+105	2012030matton.pdf	2011-068, State of New Hampshire v. Daniel Matton
+106	2012031saypease.pdf	2011-174, Say Pease IV, LLC & a. v. New Hampshire Department of Revenue Administration
+107	2012032smith.pdf	2011-224, State of New Hampshire v. Christina Smith
+108	2012033mcclammer.pdf	2011-227, Michael O’Hearne & a. v. James McClammer, Jr.; James U. McClammer, Jr., Trustee of the Profit Sharing Plan of Connecticut Valley Environmental Services, Inc. v. Michael W. O’Hearne & a.
+109	2012034harborside.pdf	2011-236, Harborside Associates, L.P. v. City of Portsmouth
+110	2012025belonga.pdf	2009-129, State of New Hampshire v. Nicole Belonga
+111	2012026frost.pdf	2011-121, Jeffrey Frost & a. v. Commissioner, New Hampshire Banking Department & a.
+112	2012027eaton.pdf	2011-171, In re Guardianship of Mary Louise Eaton
+113	2012020white.pdf	2010-526, State of New Hampshire v. Roscoe White
+114	2012021cfinvestments.pdf	2011-042, C F Investments, Inc. v. Option One Mortgage Corporation & a.
+115	2012022chatman.pdf	2011-162, Dana Chatman v. Strafford County & a.
+116	2012023blizzard.pdf	2011-187, Appeal of Erica Blizzard
+117	2012024holliseducation.pdf	2011-281, Appeal of Hollis Education Association, NEA-New Hampshire
+118	2012018ford.pdf	2011-262, Steven Ford v. New Hampshire Department of Transportation & a .
+119	2012019antosz.pdf	2011-445, Jason Antosz & a . v. Doree Allain
+120	2012014lamprey.pdf	2010-800, Josephine A. Lamprey v. Britton Construction, Inc. & a.
+121	2012015viviers.pdf	2010-842, In the Matter of Karen Schaulin-Viviers and Norris Viviers
+122	2012016rainville.pdf	2011-028, Jo Anne Rainville & a. v. Lakes Region Water Company, Inc. & a.
+123	2012017gentry.pdf	2011-248, Donald Gentry v. Warden, Northern New Hampshire Correctional Facility
+124	2012010a&jbeverage.pdf	2010-517, Appeal of A&J Beverage Distribution, Inc.
+125	2012011bent.pdf	2010-632, State of New Hampshire v. Daniel Bent
+126	2012012maclearn.pdf	2010-880, Lachlan MacLearn & a. v. Commerce Insurance Company
+127	2012013haleyk.pdf	2011-123, In re Haley K.
+128	2012001wilmot.pdf	2010-415, The State of New Hampshire v. Jason Wilmot
+129	2012002ward.pdf	2010-496, State of New Hampshire v. Jack T. Ward
+130	2012003anthonyf.pdf	2010-665, In re Anthony F.
+131	2012004smith.pdf	2010-728, State of New Hampshire v. Patricia Smith
+132	2012005henry.pdf	2010-785, In the Matter of Marty A. Henry and Thomas A. Henry
+133	2012006clark.pdf	LD-2011-006, Clark 's Case
+134	2012007silverstein.pdf	2011-012, Appeal of Michael Silverstein
+135	2012008mallett.pdf	2011-338, In the Matter of Tami Mallett and Michael Mallett
+136	2012009doyle.pdf	2011-420, Jonathan Doyle v. Commissioner, New Hampshire Department of Resources and Economic Development & a.

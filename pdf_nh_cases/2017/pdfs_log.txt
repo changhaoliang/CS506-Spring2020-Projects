@@ -1,0 +1,79 @@
+1	2017074gallant.pdf	LD-2017-0010, Gallant’s Case
+2	2017072khoury.pdf	2016-0258, International Business Machines Corp. v. Gary Joseph Khoury
+3	2017073balise.pdf	2017-0110, Janet Balise & a. v. Brad Balise & a.
+4	2017071hodges.pdf	2016-0130, David A. Hodges, Jr. & a. v. Alan Johnson & a.
+5	2017069sanborn.pdf	2016-0259 and 2016-0629, In the Matter of Emily Sanborn and Timothy E. Sanborn
+6	2017070roland.pdf	2016-0667, Appeal of Patrick A. Roland
+7	2017067jakobiec.pdf	2016-0427, Appeal of Estate of Beatrice Jakobiec
+8	12-05-2017-order.pdf	see court order
+9	2017068bosa.pdf	2016-0544, The State of New Hampshire v. Theo Bosa
+10	01-10-2018-order.pdf	see court order
+11	2017066russell.pdf	2016-0540, Michelle Russell & a. v. NGM Insurance Company
+12	2017064gonzalez.pdf	2015-0446, State of New Hampshire v. Carlos Gonzalez, III
+13	2017065sweatt.pdf	2016-0296, In the Matter of Patricia Sweatt and Arthur Sweatt
+14	2017061christen.pdf	2016-0528, Elaine Christen & a. v. Fiesta Shows, Inc. & a.
+15	2017062barnaby.pdf	2016-0535, The State of New Hampshire v. Anthony Barnaby; The State of New Hampshire v. David Caplin
+16	2017063nashuaschooldistrict.pdf	2016-0558, Appeal of Nashua School District
+17	2017058ross.pdf	2016-0370, Wayne Ross, Trustee of the Wayne Ross Revocable Trust & a. v. Donald W. Ross & a.
+18	2017059massbay.pdf	2016-0390, Massachusetts Bay Insurance Company v. American Healthcare Services Association & a.
+19	11-13-2017-modified-order.pdf	see court order
+20	2017060barry.pdf	2016-0398, Daniel Barry v. New Hampshire Department of Health and Human Services & a.
+21	2017052fiske.pdf	2016-0137, The State of New Hampshire v. Jeremy M. Fiske
+22	2017053robbins.pdf	2016-0235, The State of New Hampshire v. Andrew Robbins
+23	2017054carlson.pdf	2016-0251, Carolyn J. Carlson, Trustee of the Carolyn J. Carlson Living Trust v. Latvian Lutheran Exile Church of Boston and Vicinity Patrons, Inc.
+24	10-20-2017-modified-order.pdf	see court order
+25	2017055kurowski.pdf	2016-0406, Jay Kurowski f/n/f Christopher Kurowski v. Town of Chester
+26	2017056gibson.pdf	2016-0507, The State of New Hampshire v. Carl Gibson
+27	2017057taylor.pdf	2016-0702, David K. Taylor v. School Administrative Unit #55
+28	2017051little.pdf	2016-0491, Barbara F. O’Malley & a. v. Aaron Little & a.
+29	2017048kibby.pdf	2016-0318, The State of New Hampshire v. Nathaniel Kibby
+30	2017049paige.pdf	2016-0342, The State of New Hampshire v. Travis C. Paige
+31	2017050dow.pdf	2016-0468, In the Matter of Leslie Dow and Harry Dow, IV
+32	2017044fogg.pdf	2016-0268, The State of New Hampshire v. James Fogg
+33	2017045nguyen.pdf	2016-0365, Appeal of Dao Nguyen
+34	2017046breagy.pdf	2016-0400, In the Matter of Keli Eckroate-Breagy and Paul Breagy
+35	2017047patient.pdf	2016-0431, In the Matter of Sandra L. Patient and Marcel C. Patient, Jr.
+36	2017043candello.pdf	2014-0370 and 2016-0096, The State of New Hampshire v. Jason N. Candello
+37	2017041sawyer.pdf	2015-0748, Petition of Wayne Sawyer
+38	2017042actavispharma.pdf	2016-0199, The State of New Hampshire v. Actavis Pharma, Inc. & a.
+39	2017040cora.pdf	2016-0145, The State of New Hampshire v. Daniel Jesus Cora
+40	2017037depaula.pdf	2015-0484, The State of New Hampshire v. Abraham DePaula
+41	2017038widi.pdf	2015-0578, The State of New Hampshire v. David J. Widi, Jr.
+42	2017039exeterhospital.pdf	2015-0624, Exeter Hospital, Inc. v. Steadfast Insurance Company
+43	2017036desmarais.pdf	2016-0224, Appeal of Beverly Desmarais
+44	2017032Starr.pdf	2015-0683, State of New Hampshire v. Peggy Starr
+45	2017033AT&T.pdf	2016-0187, In re Search Warrant for Records From AT&T
+46	2017034Segtel.pdf	2016-0305, Segtel, Inc. v. City of Nashua
+47	2017035LilacLane.pdf	2016-0357, Condominiums at Lilac Lane Unit Owners’ Association v. Monument Garden, LLC & a.
+48	2017029robinson.pdf	2013-0480, 2013-0635, and 2015-0429, The State of New Hampshire v. Scott Robinson
+49	2017030nhelectriccoop.pdf	2015-0625, Appeal of New Hampshire Electric Cooperative, Inc.
+50	2017031psnh.pdf	2015-0626, Appeal of Public Service Company of New Hampshire d/b/a Eversource Energy
+51	2017026fatbullies.pdf	2015-0692, Fat Bullies Farm, LLC v. Lori Devenport & a.
+52	2017027directv.pdf	2016-0151, DirecTV, Inc. v. Town of New Hampton
+53	2017028fernandes-prabhu.pdf	2016-0243, In the Matter of Nicholas Kelly and Astrid Fernandes-Prabhu
+54	2017024garod.pdf	2016-0178, Harvey J. Garod v. Steiner Law Office, PLLC & a.
+55	2017025carr.pdf	2016-0350, Robert Carr & a. v. Town of New London
+56	2017022rice.pdf	2015-0457, The State of New Hampshire v. Kyree Rice
+57	2013023willeke.pdf	2016-0079, Petition of Eric Willeke and Regina Willeke
+58	2017021wilson.pdf	2015-0404, The State of New Hampshire v. Max Wilson
+59	2017019czekalski.pdf	2014-0299, The State of New Hampshire v. Jason Czekalski
+60	05-23-2017-modified-order.pdf	see court order
+61	2017020alphadelta.pdf	2016-0304, Dartmouth Corporation of Alpha Delta v. Town of Hanover
+62	2017015lynch.pdf	2015-0358, The State of New Hampshire v. Kevin Lynch
+63	2017016morrill.pdf	2015-0377, The State of New Hampshire v. Jessica Morrill
+64	2017017santamaria.pdf	2016-0176, The State of New Hampshire v. Paul R. Santamaria
+65	2017018kadleproperties.pdf	2016-0206, Appeal of Kadle Properties Revocable Realty Trust
+66	2017013cluff-landry.pdf	2016-0122, Beverly A. Cluff-Landry v. Roman Catholic Bishop of Manchester
+67	2017014clay.pdf	2016-0169, Jeffrey Thomas Clay v. City of Dover & a.
+68	2017010breest.pdf	2015-0524, The State of New Hampshire v. Robert Breest
+69	2017011ramos.pdf	2015-0609, Alberto Ramos v. Warden, New Hampshire State Prison
+70	2017012malo.pdf	2016-0038, Appeal of Jason Malo
+71	2017008holloway.pdf	2016-0141, Holloway Automotive Group v. Steven Giacalone
+72	2017009mullin.pdf	2016-0177, In re Estate of Kathleen Mullin
+73	2017007lath.pdf	LD-2016-0005, Petition of Sanjeev Lath & a.
+74	2017004edic.pdf	2015-0329, The State of New Hampshire v. William Edic
+75	2017005gross-santos.pdf	2015-0570, The State of New Hampshire v. Remi Gross-Santos
+76	2017006smith.pdf	2015-0636, The State of New Hampshire v. Robert Grimpson Smith
+77	2017003cady.pdf	2016-0152, Harriet E. Cady v. Town of Deerfield
+78	2017001hagenbuch.pdf	2015-0079, Petition of Kelly Hagenbuch
+79	2017002mcinnis.pdf	2015-0480, The State of New Hampshire v. Sean McInnis

@@ -1,0 +1,13 @@
+2008 contains 140 cases
+2009 contains 146 cases
+2010 contains 150 cases
+2011 contains 146 cases
+2012 contains 136 cases
+2013 contains 94 cases
+2014 contains 113 cases
+2015 contains 100 cases
+2016 contains 92 cases
+2017 contains 79 cases
+2018 contains 86 cases
+
+1282 cases in total

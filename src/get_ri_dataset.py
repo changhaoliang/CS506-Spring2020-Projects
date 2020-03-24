@@ -180,8 +180,6 @@ def split(cases):
 
     for i, case in enumerate(cases):
         paragraphs = re.split(r'\s{2,}',case[1])
-        paragraphs = [paragraph.replace('\n', ' ') if paragraph and i != 2 
-        else paragraph for i, paragraph in enumerate(paragraphs)]
         cases[i][1] = paragraphs
 
     return cases

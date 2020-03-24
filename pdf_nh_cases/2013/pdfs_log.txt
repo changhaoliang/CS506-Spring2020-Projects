@@ -1,0 +1,94 @@
+1	2013089botelho.pdf	2012-447, State of New Hampshire v. Jessica Botelho
+2	2013090audette.pdf	2012-496, Robert Audette & a. v. Suzynne D. Cummings & a.
+3	2013092thompson.pdf	2013-096, State of New Hampshire v. Daniel Thompson
+4	2013091lantagne.pdf	2013-069, State of New Hampshire v. David Lantagne
+5	2013087eaton.pdf	2012-0703, Daniel Eaton v. Mary Eaton & a.
+6	2013088hurley.pdf	2013-0263, Nathalie Hurley v. Craig Hurley
+7	2013084carrier.pdf	2012-0334, Petition of Michael Carrier
+8	2013085durgin.pdf	2012-0467, State of New Hampshire v. Jason Durgin
+9	2013086stompor.pdf	2012-0555, Petition of Stephen Stompor
+10	2013083fischer.pdf	2011-451, State of New Hampshire v. David J. Fischer
+11	2013082dupont.pdf	2012-158, State of New Hampshire v. Robert Dupont
+12	2013081dichiara.pdf	2012-576, Steven P. Dichiara, Jr. v. Sanborn Regional High School & a.
+13	2013079cheney.pdf	2011-465, State of New Hampshire v. Michael G. Cheney
+14	2013080deveno.pdf	2013-368, In re Deven O.
+15	2013078Addison.pdf	2008-0945 The State of New Hampshire v. Michael Addison
+16	2013075gagne.pdf	2011-889, State of New Hampshire v. Karen Gagne
+17	2013076germain.pdf	2012-145, State of New Hampshire v. Guilbert P. Germain
+18	2013077leeds.pdf	2012-599, Lawrence Leeds v. BAE Systems
+19	2013073mullen.pdf	2012-0487, Appeal of Annelie Mullen
+20	2013074faitht.pdf	2012-0735, In re Faith T. & a.
+21	2013072houston.pdf	2012-0570, Houston Holdings, LLC v. City of Portsmouth
+22	2013069tabaldi.pdf	2012-214, State of New Hampshire v. Matthew Tabaldi
+23	2013070leisurelife.pdf	2012-406, Joanne Gray & a. v. Leisure Life Industries a/k/a Leisure Life Industries, Inc. a/k/a Leisure Life Industries, LLC & a.
+24	2013071sophiemarieh.pdf	2013-276, In re Sophia-Marie H.
+25	2013067decato.pdf	2012-083, State of New Hampshire v. William Decato
+26	2013068boulard.pdf	2012-532, Appeal of Dr. Kevin D. Boulard, D.M.D.
+27	2013058willis.pdf	2011-678, State of New Hampshire v. Ernest Willis
+28	2013059phillips.pdf	2011-683, Appeal of Thomas Phillips
+29	2013060landrigan.pdf	2012-039, Town of Newbury v. Steven P. Landrigan & a.
+30	2013061virgin.pdf	2012-162, Victor Virgin Construction Corp. v. New Hampshire Department of Transportation
+31	2013062wilber.pdf	2012-368, In re Estate of Richard B. Wilber
+32	2013063bilden.pdf	2012-387, Bilden Properties, LLC & a. v. S. Gerald Birin & a.
+33	20120387_opinion-modified-order.pdf	see court order
+34	2013064dalton.pdf	2012-392, State of New Hampshire v. Bradford Dalton
+35	2013065fairpoint.pdf	2012-398, Appeal of Northern New England Telephone Operations, LLC d/b/a FairPoint Communications-NNE
+36	2013066gsmr.pdf	2012-436, Granite State Management & Resources v. City of Concord
+37	2013057dor.pdf	2012-823, State of New Hampshire v. Oriol Dor
+38	2013051noucas.pdf	2011-909, State of New Hampshire v. Michael Carpenter Noucas
+39	2013052dorrance.pdf	2012-094, State of New Hampshire v. Wayne Dorrance
+40	2013053seacoasthealth.pdf	2012-371, Foundation for Seacoast Health v. Hospital Corporation of America & a.
+41	2013054codyc.pdf	2012-402, In re Cody C.
+42	2013055roberts.pdf	2012-428, Charles A. Roberts v. Town of Windham
+43	2013056plaisted.pdf	2012-596, Robin Plaisted v. Jeffrey A. LaBrie
+44	2013047ploof.pdf	2012-174, State of New Hampshire v. William Ploof
+45	2013048lakesunapee.pdf	2012-255, Appeal of Lake Sunapee Protective Association & a.
+46	2013049kua.pdf	2012-492, Kimball Union Academy v. John Genovesi & a.
+47	2013050townnewbury.pdf	2012-705, Town of Newbury & a. v. New Hampshire Fish and Game Department & a.
+48	2013044morrissey.pdf	2012-405, Appeal of Thomas Morrissey & a.
+49	2013045maplevale.pdf	2012-485, Maplevale Builders, LLC & a. v. Town of Danville
+50	2013046czyzewski.pdf	2012-527, Justin Czyzewski v. New Hampshire Department of Safety, Bureau of Hearings
+51	2013037leavitt.pdf	2011-452, State of New Hampshire v. Todd Leavitt
+52	2013038matton.pdf	2011-801, State of New Hampshire v. Daniel Matton
+53	2013039mcleod.pdf	2011-809, State of New Hampshire v. David McLeod
+54	2013040bisbee.pdf	2012-047, State of New Hampshire v. Brendan Bisbee
+55	2013041raveng.pdf	2012-238, In re Guardianship of Raven G. & a.
+56	2013042deyeso.pdf	2012-315, Christina M. Deyeso v. Jules R. Cavadi
+57	2013043mercier.pdf	2012-353, State of New Hampshire v. Allen R. Mercier
+58	2013036gribble.pdf	2011-258, State of New Hampshire v. Christopher Gribble
+59	2013034sunapee.pdf	2011-746, The Sunapee Difference, LLC v. The State of New Hampshire
+60	2013035rodriguez.pdf	2012-038, The State of New Hampshire v. Hector Rodriguez
+61	2013032hannaford.pdf	2011-611, Hannaford Brothers Company v. Town of Bedford & a.
+62	2013033stewart.pdf	2012-363, Appeal of William Stewart
+63	2013028strikefour.pdf	2012-193, Strike Four, LLC v. Nissan North America, Inc.
+64	2013029citynashua.pdf	2012-252, Appeal of City of Nashua
+65	2013030trefethen.pdf	2012-394, Steve Trefethen & a. v. Town of Derry
+66	2013031bartlett.pdf	2012-490, Town of Bartlett Board of Selectmen v. Town of Bartlett Zoning Board of Adjustment
+67	2013027ojo.pdf	2012-510, Osahenrumwen Ojo v. Joseph C. Lorenzo & a.
+68	2013026stacy.pdf	2012-300, Appeal of David Stacy
+69	2013025guay.pdf	2011-414, State of New Hampshire v. Kevin Guay
+70	2013020axenics.pdf	2011-219, Axenics, Inc. f/k/a RenTec Corporation v. Turner Construction Company & a.
+71	2013021carmody.pdf	2012-135, In the Matter of S. Rebecca Carmody and Craig T. Carmody
+72	2013022blunt.pdf	2012-165, State of New Hampshire v. Matthew Blunt
+73	2013023martin.pdf	2012-195, State of New Hampshire v. Ryan Martin
+74	2013024lukas.pdf	2012-240, State of New Hampshire v. Robin Lukas
+75	2013012russo.pdf	2011-624, State of New Hampshire v. Amato John Russo
+76	2013013johnson.pdf	2011-646, Appeal of Eric Johnson
+77	2013014schultz.pdf	2012-051, Wells Fargo Bank v. Scott Schultz
+78	2013015greatamerican.pdf	2012-088, Great American Dining, Inc. v. Philadelphia Indemnity Insurance Company
+79	2013016trebian.pdf	2012-091, State of New Hampshire v. Nicholas Trebian
+80	2013017bartlett.pdf	2012-176, Stephen Bartlett & a. v. City of Manchester
+81	2013018sanguedolce.pdf	2012-217, Paul Sanguedolce v. Andrew Wolfe & a.
+82	2013019case.pdf	2012-451, Mark Case v. St. Mary's Bank
+83	2013008miller.pdf	2011-394, Lakes Region Gaming & a. v. Jeremey Miller
+84	2013009casanova.pdf	2011-570, State of New Hampshire v. Daniel Casanova
+85	2013010evans.pdf	2012-198, Mary Evans v. J Four Realty, LLC & a.
+86	2013011signalaviation.pdf	2012-364, Signal Aviation Services, Inc. v. City of Lebanon
+87	2013005eschenbrenner.pdf	2011-595, State of New Hampshire v. Patrick Eschenbrenner
+88	03_12_2013_Slip-opinion-modified.pdf	see court order
+89	2013006dion.pdf	2011-786, State of New Hampshire v. Lynn Dion
+90	2013007laconiapatrolman.pdf	2012-057, Appeal of Laconia Patrolman Association
+91	2013004rines.pdf	2011-776, Town of Carroll v. William Rines
+92	2013001shelton.pdf	2010-634, Julie Shelton & a. v. Samuel A. Tamposi, Jr. & a.
+93	2013002randall.pdf	2011-456, Myla Randall v. Nahla Abounaja
+94	2013003muller.pdf	2011-736, In the Matter of Gabrielle Muller and William Muller
