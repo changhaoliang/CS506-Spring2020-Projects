@@ -4,7 +4,7 @@ import json
 from pprint import pprint
 
 
-def search_keyword(state, keywords):
+def search_keywords(state, keywords):
     """
     :param: state: ma, nh, ri
     :param: keywords: a list of keywords to be searched
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     state = "nh"
     keywords = ["informant"]
 
-    result = search_keyword(state, keywords)
+    result = search_keywords(state, keywords)
 
     # save to ../data
     save_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/result/cases_" + state + "_result"
