@@ -33,7 +33,7 @@ def get_nh_cases(path, year_start, year_end):
             p_opinion_issued = find_paragraph(case_text, ["Opinion Issued: "])
             # locate case decision
             decisions = ['affirmed', "reversed", "vacated", "remanded", "dismissed", "ordered", "denied"]
-            case_text_lowercase = [para.lower() if "\n" not in para else "" for para in case_text]
+            case_text_lowercase = [p.lower() if "\n" not in p else "" for p in case_text]
             p_decision = len(case_text) - 1 - find_paragraph(case_text_lowercase[::-1], decisions)
             if p_decision == len(case_text):
                 case_text_lowercase = [paragraph.lower().split("\n")[0] for paragraph in case_text]
@@ -69,7 +69,7 @@ def extract_cases(path, year_start, year_end):
                 text = ''.join(pdf)
                 # record reading errors
                 if text:
-                    paragraphs = split_case(text)
+                    paragraphs = re.split(r'\s{2,}', text)
                 else:
                     error_msg = "Error: pdftotext cannot extract text from " + filename + "," + str(year)
                     # print(error_msg)
@@ -89,11 +89,6 @@ def remove_page_number(pdf_obj):
             else:
                 pdf.append(page)
     return pdf
-
-
-def split_case(case):
-    paragraphs = re.split(r'\s{2,}', case)
-    return paragraphs
 
 
 def find_paragraph(case_text, keywords):
