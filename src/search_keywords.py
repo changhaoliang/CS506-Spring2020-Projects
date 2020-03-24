@@ -94,13 +94,13 @@ def save_result(path, fmt, cases):
 if __name__ == "__main__":
 
     # enter "ma", "nh" or "ri"
-    state = "nh"
-    keywords = ["informant"]
+    m_state = "nh"
+    m_keywords = ["informant"]
 
-    result = search_keywords(state, keywords)
+    result = search_keywords(m_state, m_keywords)
 
     # save to ../data
-    save_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/result/cases_" + state + "_result"
+    save_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/result/cases_" + m_state + "_result"
     # save as json or csv
     save_result(save_path, "json", result)
 
