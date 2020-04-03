@@ -13,7 +13,7 @@ def search_keywords(state, keywords):
         keys: case, headnote, text
 
     cases_nh is a list of dictionary each of which represents a case
-        keys: file name, title, type, text
+        keys: file name, title, type, decision, text
     """
     cases = load_cases(state)
     criminal_cases = get_criminal_cases(state, cases)
