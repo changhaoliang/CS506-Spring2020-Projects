@@ -221,25 +221,14 @@ def get_data(cases):
                 break
 
         for i, paragraph in enumerate(case):
-            if paragraph.lower().find('affirm') != -1:
-                paragraph_result = 1
-                break
-            if paragraph.lower().find('vacate') != -1:
-                paragraph_result = 0
-                break
-        if paragraph_result == 1:
-            result.append('reversal')
-        elif paragraph_result == 0:
-            result.append('non-reversal')
-        else:
-            result.append('undecided')
-            
+            if paragraph.lower().find('conclusion') != -1:
+                paragraph_result = i
 
         title = ' '.join(case[paragraph_case_number+1:paragraph_submitted_argued])
 
         cases_title.append(title)
         cases_text.append(case[paragraph_opinion_issued+1:])
-
+        result.append(case[paragraph_result+1:])
 
         '''
             for 2010-, html is different from 2010+
