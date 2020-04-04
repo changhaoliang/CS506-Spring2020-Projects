@@ -298,20 +298,34 @@ def scrapy(year_period):
     res.to_csv("./data/ri" + year_period + ".csv")
 
 if __name__ == "__main__":
-    path = './pdf_ri_cases'
-    pdfs = get_pdfs(path)
-    cases = get_cases(pdfs)
-    cases = split(cases)
-    cases_title, cases_text, result = get_data(cases)
+    # path = './pdf_ri_cases'
+    # pdfs = get_pdfs(path)
+    # cases = get_cases(pdfs)
+    # cases = split(cases)
+    # cases_title, cases_text, result = get_data(cases)
 
-    print(len(cases_title))
-    print(len(cases_text))
-    print(len(result))
+    # print(len(cases_title))
+    # print(len(cases_text))
+    # print(len(result))
 
-    res = pd.DataFrame(columns = ['title', 'result', 'text'])
+    # res = pd.DataFrame(columns = ['title', 'result', 'text'])
 
-    for i in range(len(result)):
-        res.loc[i] = [cases_title[i], result[i], cases_text[i]]
+    # for i in range(len(result)):
+    #     res.loc[i] = [cases_title[i], result[i], cases_text[i]]
 
-    print(result)
-    res.to_csv("./data/ri_2.0.csv")
+    # print(result)
+    # res.to_csv("./data/ri_2.0.csv")
+
+    res = pd.read_csv("./data/final_ri.csv")
+    crimial = res[res['type'] == 'criminal']
+    print(crimial.shape)
+
+    
+    # print(res.shape)
+    # decision = res['result']
+    # decision = decision.str.lower().copy()
+    # part = decision[decision.str.contains('reversal')]
+
+    # text = res['text']
+    informant = crimial['text'].str.lower()[crimial['text'].str.contains('informant')]
+    print(informant.shape)
