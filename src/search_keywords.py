@@ -29,7 +29,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
                                     shadow=False,
                                     startangle=90,
                                     pctdistance=0.6)
-    plt.title('Statistics of criminal cases containing keywords: affirmation')
+    plt.title('Statistics of criminal cases containing keywords("informant" and "CI"); classification for affirmation')
     plt.axis('equal')
     plt.savefig('pie_pic/KW_affirm.jpg')
     # 2
@@ -46,7 +46,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
                                     shadow=False,
                                     startangle=90,
                                     pctdistance=0.6)
-    plt.title('Statistics of criminal cases not containing keywords: affirmation')
+    plt.title('Statistics of criminal cases not containing keywords("informant" and "CI"); classification for affirmation')
     plt.axis('equal')
     plt.savefig('pie_pic/NKW_affirm.jpg')
     # 3
@@ -63,7 +63,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
                                     shadow=False,
                                     startangle=90,
                                     pctdistance=0.6)
-    plt.title('Statistics of criminal cases containing keywords: remand')
+    plt.title('Statistics of criminal cases containing keywords("informant" and "CI"); classification for remand')
     plt.axis('equal')
     plt.savefig('pie_pic/KW_remand.jpg')
     # 4
@@ -80,7 +80,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
                                     shadow=False,
                                     startangle=90,
                                     pctdistance=0.6)
-    plt.title('Statistics of criminal not cases containing keywords: remand')
+    plt.title('Statistics of criminal not cases containing keywords("informant" and "CI"); classification for remand')
     plt.axis('equal')
     plt.savefig('pie_pic/NKW_remand.jpg')
 
