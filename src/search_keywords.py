@@ -16,7 +16,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
         edited by Qitong Wang; Apr 6th, 2020.
     """
     # 1
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(9, 6))
     labels = [u'affirmed', u'partly affirmed', u'reversed']
     sizes = [num_affirmed, num_part, num_reversed]
     colors = ['red', 'lightskyblue', 'yellow']
@@ -33,7 +33,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
     plt.axis('equal')
     plt.savefig('pie_pic/KW_affirm.jpg')
     # 2
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(9, 6))
     labels = [u'affirmed', u'partly affirmed', u'reversed']
     sizes = [num_affirmed_noKeywords, num_part_noKeywords, num_reversed_noKeywords]
     colors = ['red', 'lightskyblue', 'yellow']
@@ -50,7 +50,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
     plt.axis('equal')
     plt.savefig('pie_pic/NKW_affirm.jpg')
     # 3
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(9, 6))
     labels = [u'remanded', u'not remanded']
     sizes = [num_remanded, num_nonremanded]
     colors = ['yellowgreen', 'cadetblue']
@@ -67,7 +67,7 @@ def result_visualization(num_affirmed, num_part, num_reversed, num_remanded, num
     plt.axis('equal')
     plt.savefig('pie_pic/KW_remand.jpg')
     # 4
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(9, 6))
     labels = [u'remanded', u'not remanded']
     sizes = [num_remanded_noKeywords, num_nonremanded_noKeywords]
     colors = ['yellowgreen', 'cadetblue']
