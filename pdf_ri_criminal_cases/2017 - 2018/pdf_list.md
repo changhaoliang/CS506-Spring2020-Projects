@@ -1,7 +1,0 @@
-1	16-352.pdf	State v. Michael Patino, 16-352 (June 29, 2018)
-2	16-151.pdf	State v. Willie Washington, No. 16-151 (June 29, 2018)
-3	17-158.pdf	State v. Bruce Moten, No. 17-158 (June 26, 2018)
-4	17-92.pdf	State v. Curtis Maxie, No. 17-92 (June 22, 2018)
-5	16-182.pdf	State v. Tory Lussier, No. 16-182 (June 20, 2018)
-6	17-2.pdf	State v. Ashner Alexis, No. 17-2 (June 13, 2018)
-7	15-322.pdf	State v. Andre Marizan, No. 15-322 (June 12, 2018)

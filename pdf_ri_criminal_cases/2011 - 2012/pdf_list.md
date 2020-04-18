@@ -1,7 +1,0 @@
-1	09-31.pdf	State v. John Kluth, No. 09-31 (July 13, 2012)
-2	10-216.pdf	State v. James S. Richardson, No. 10-216 (July 12, 2012)
-3	10-61.pdf	State v. Julie Robat, No. 10-61 (July 12, 2012)
-4	10-236.pdf	State v. Juan Diaz, No. 10-236 (July 12, 2012)
-5	10-363.pdf	State v. James Cook, No. 10-363 (July 6, 2012)
-6	09-246.pdf	State v. Kenneth Viveiros, No. 09-249 (July 6, 2012)
-7	10-253,%2010-254.pdf	State v. Michael Ciresi, Nos. 10-253, 10-254 (July 5, 2012)
