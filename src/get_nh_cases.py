@@ -47,7 +47,13 @@ def get_nh_cases(path, year_start, year_end):
                 case['type'] = find_criminal(case_text_no_newline[p_opinion_issued + 3].split(' '), pdf_name)
             # get case decision
             if p_decision != len(case_text):
-                case['decision'] = case_text_no_newline[p_decision].split("\n")[0]
+                decision = case_text_no_newline[p_decision].split("\n")[0]
+                if "affirmed in part" in decision.lower():
+                    case['decision'] = "affirmed in part"
+                elif "affirm" in decision.lower():
+                    case['decision'] = "affirmed"
+                else:
+                    case['decision'] = "not affirmed"
 
         cases_data.append(case)
     return cases_data
@@ -70,11 +76,7 @@ def extract_cases(path, year_start, year_end):
                 # record reading errors
                 if text:
                     paragraphs = re.split(r'\s{2,}', text)
-                else:
-                    error_msg = "Error: pdftotext cannot extract text from " + filename + "," + str(year)
-                    # print(error_msg)
-                    paragraphs = [error_msg]
-                pdfnames_cases.append([filename, paragraphs])
+                    pdfnames_cases.append([filename, paragraphs])
     # return pdf files in a list of [pdfname, case]
     return pdfnames_cases
 
@@ -116,8 +118,8 @@ def find_criminal(headnote, pdf_name):
                 except ValueError:
                     print(headnote[n + 2][:3] + " after RSA " + pdf_name)
         if 625 <= rsa_num < 652:
-            return 'Criminal'
-    return 'Non-Criminal'
+            return 'criminal'
+    return 'non-criminal'
 
 
 def save_result(path, fmt, cases):
